@@ -1,0 +1,312 @@
+.cargaDatos
+{
+    padding: 50px;
+    height: 300px;
+    transition: height 1s;
+    font-family: 'Amatic SC', cursive;
+    font-size: large;
+    border-radius: 70px;
+    border-width: 10px;
+    border-style: inset;
+    background-size: cover;
+    background-image: url("../imagenes/foto\ bien.png");
+}
+
+small
+{
+    font-size: large;
+    color: red;
+}
+@media screen and (max-width: 750px)
+{
+    .cargaDatos
+    {
+        width: 190px;
+        height: 400px;
+        transition: height 1s;
+    }
+}
+@media screen and (max-width: 1000px)
+{
+    .bloque
+    {
+        height: 100px;
+        transition: height 1s;
+    }
+    
+    div>h2
+    {
+        font-size: medium;
+        transition: font-size 1s;
+    }
+
+    .subtitulo
+    {
+        font-size: x-small;
+        transition: font-size 1s;
+    }
+
+    .precio
+    {
+        font-size: smaller;
+        transition: font-size 1s;
+    }
+    .caracteristicas
+    {
+        font-size: smaller;
+        transition: font-size 1s;
+    }
+}
+
+.adminImage
+{
+    position: relative;   
+    top: 100px;
+    left: 250px;
+}
+
+input
+{
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+fieldset>label
+{
+    font-family: 'Righteous', cursive;
+}
+
+.boton
+{
+    background-color: rgb(253, 233, 47);
+    border: 1px solid black;
+    height: 35px;
+    width: 100px;
+    border-radius: 10px;
+}
+.boton:hover
+{
+    border: 5px solid rgb(83, 83, 83);
+    transition: border 0.5s;
+}
+
+table
+{
+    background-color: rgb(83, 83, 83);
+    border-radius: 10px;
+}
+
+th
+{
+    text-transform: capitalize;
+    background-color: pink;
+    border-radius: 10px;
+    font-family: 'Righteous', cursive;
+}
+
+th,
+td{
+    border: 1px solid black;
+    padding: 3px 5px;
+}
+
+.invisible
+{
+    display:none;
+}
+
+.eliminar
+{
+    background-color: red;
+    border: 1px solid black;
+    height: 35px;
+    width: 100px;
+    border-radius: 10px;
+}
+
+.eliminar:hover
+{
+    border: 5px solid rgb(83, 83, 83);
+    transition: border 0.5s;
+}
+
+.navIn
+{
+    position: fixed;
+    top: 0;
+    right:2px;
+    width:100%;
+    background-color: orange;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: black;
+    font-family: 'Righteous', cursive;
+    border-radius: 40px;
+}
+
+.footer
+{
+    position: sticky;
+    right:2px;
+    width:100%;
+    background-color: orange;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: black;
+    font-family: 'Righteous', cursive;
+    border-radius: 40px;
+}
+.footer>nav>ul
+{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+.fin
+{
+    list-style-type: none;
+}
+
+.fin>li>a
+{
+    display: flex;
+    justify-content: space-around;
+    color: black;
+    font-family: 'Amatic SC', cursive;
+}
+
+nav>ul
+{
+    list-style-type: none;
+}
+
+nav>ul>li>a
+{
+    color: black;
+    font-family: 'Amatic SC', cursive;
+}
+
+.encabezado
+{
+    position: static;
+    top: 300px;
+    font-size: xx-large;
+}
+.Admin
+{
+    position: relative;
+    top: 35px;
+    font-size: x-large;
+}
+
+img
+{
+    position: inherit;
+}
+body
+{
+    background-color: pink;
+}
+
+.inicio
+{
+    background-size: cover;
+    background-image: url("../imagenes/mascotas.jpg");
+}
+
+
+.titulo
+{
+    position: relative;
+    top: 77px;
+    font-size: x-large;
+    font-family: 'Freehand', cursive;
+    color: white;
+}
+
+.bloque
+{
+    
+    display: inline-block;
+    border: 2px solid rgb(128, 128, 128);
+    background-color: rgba(212, 212, 212, 0.5);
+    border-radius: 10px;
+    border-style: outset;
+    color: #000000;
+    padding-left: 5px;
+    width: 30%;
+    height: 175px;
+    transition: font-size 1s;
+}
+
+.espacioBlanco
+{
+    background-color: pink;
+    height: 100px;
+}
+.imagenAdmin
+{
+    margin-top: 10px;
+    height: 100px;
+    border: 1px solid black;
+    background-image: url("../imagenes/mascotaswide.jpg");
+    background-color: rgb(255, 165, 0,0.5);
+    border-radius: 20px;
+}
+
+div>h2
+{
+    height: 10px;
+    font-family: 'Righteous', cursive;
+    font-weight: 90;
+    transition: font-size 1s;
+}
+
+.subtitulo
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    height: 7px;
+    transition: font-size 1s;
+}
+
+.caracteristicas
+{
+    display: inline;
+    transition: font-size 1s;
+}
+
+.precio
+{
+    position: relative;
+    color: rgb(5, 199, 5);
+    transition: font-size 1s;
+}
+
+.spinner
+{
+    background-color: rgb(255, 255, 255,0.8);
+    border-radius: 50px;
+    animation: spin 0.5s linear infinite;
+}
+
+@keyframes spin{
+    0% {transform: rotate(0deg);}
+    100% {transform: rotate(360deg);}
+}
+
+body::-webkit-scrollbar
+{
+    background-color: rgba(212, 212, 212, 0.5);
+    width: 10px;
+}
+
+body::-webkit-scrollbar-thumb
+{
+    background: orange;
+
+    border-radius: 50px;
+}

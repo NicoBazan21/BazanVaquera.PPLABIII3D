@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bazan Vaquera, Nicolas Jose Antonio</title>
+
+    <link rel="stylesheet" href="./css/estilos.css">
+    <link rel="stylesheet" href="./css/tablaDinamica.css">
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap" rel="stylesheet">
+
+</head>
+<body>    
+    <header>
+        <nav class="navIn">
+            . . . . . . Bienvenidos . . . . . .
+            <ul>
+                <li><a href="./index.html" rel="noopener norreferer nofollow">Nosotros</a></li>
+                <li><a href="./anuncios.html" rel="noopener norreferer nofollow">Anuncios</a></li>
+                <li><a href="twitter.com" target="_blank"rel="noopener norreferer nofollow">Blog</a></li>
+                <li><a href="github.com"target="_blank" rel="noopener norreferer nofollow">Contacto</a></li>
+            </ul>
+            
+        </nav>
+    </header>
+    <div class="espacioBlanco"></div>
+    <div class="imagenAdmin" align="center">
+    </div>
+    <section>
+        <div align="center" class="encabezado">
+        Administracion
+        </div>
+        <form>
+            <fieldset class="cargaDatos" align="center">
+                <legend>Informacion del Anuncio</legend>
+                <label for="txtTitulo">Titulo:</label><br>
+                <input type="text" placeholder="Titulo" name="titulo" id="txtTitulo">
+                <small></small>
+                <br><br>
+                <label for="txtDescripcion">Descripcion:</label><br>
+                <input type="text" placeholder="Descripcion" name="descripcion" id="txtDescripcion">
+                <small></small>
+                <br><br>
+                <label for="radioAnimal">Animal:</label><br>            
+                <input type="radio" name="animal" id="radioAnimalP" value="Perro" checked >Perro
+                <input type="radio" name="animal" id="radioAnimalG" value="Gato" >Gato
+                <br><br>
+                <label for="txtPrecio">Precio:</label><br>
+                <input type="text" placeholder="Precio" name="precio" id="txtDescripcion">   
+                <small></small>
+                <br><br>
+                <img src="./imagenes/raza.png" alt="raza">
+                <input type="text" placeholder="Raza" name="raza" id="txtRaza">
+                <small></small>
+                <img src="./imagenes/nacimiento.png" alt="nacimiento">
+                <input type="date" placeholder="nacimiento" name="nacimiento" id="txtNacimiento">
+                <small></small>
+                <img src="./imagenes/vacuna.png" alt="vacuna">
+                <select name="vacuna" id="txtVacuna">
+                    <option value="">Vacunado</option>
+                    <option value="Si">Si</option>
+                    <option value="No">No</option>
+                </select>
+                <small></small>
+            </fieldset>
+            <br>
+            <button class="boton">
+                <i class="fa-solid fa-floppy-disk"></i>
+                Guardar
+            </button>
+            <button type="reset" class="boton invisible">
+                <i class="fa-solid fa-broom"></i>
+                Cancelar
+            </button>
+            <button class="eliminar invisible">
+                <i class="fa-sharp fa-solid fa-trash"></i>
+                Remover
+            </button>
+        </form>
+    </section>
+    <br>
+    <section>
+        <div id="divTabla" align="center"></div>
+    </section>
+
+    <script src="./js/app.js" type="module"></script>
+</body >
+</html>
